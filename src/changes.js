@@ -23,10 +23,14 @@ Changes.prototype.start = function start() {
     var self = this;
     this._interval = setInterval(function(){
         if (self.isChanged()) {
-            self._changeFn(self._lastResult, self._nextResult);
-            self._lastResult = self._nextResult;
+            self.trigger();
         }
     }, this._frequency);
+};
+
+Changes.prototype.trigger = function trigger() {
+    this._changeFn(this._lastResult, this._nextResult);
+    this._lastResult = this._nextResult;
 };
 
 Changes.prototype.stop = function stop() {
