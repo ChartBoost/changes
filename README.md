@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/markazevedo/changes.png)](https://travis-ci.org/markazevedo/changes)
+[![Build Status](https://travis-ci.org/markazevedo/changes.png)](https://travis-ci.org/markazevedo/changes) [![Code Climate](https://codeclimate.com/repos/52a7ba8956b102304200694c/badges/38a4b900e1caf58a1de8/gpa.png)](https://codeclimate.com/repos/52a7ba8956b102304200694c/feed)
 
 ## Changes
 
