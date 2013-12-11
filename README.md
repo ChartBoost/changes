@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/markazevedo/changes.png)](https://travis-ci.org/markazevedo/changes)
+
 ## Changes
 
 The `Changes` module allows you to inspect an object on an interval, firing a callback when the value is different than its last recorded state. Useful for observing objects that don't emit events or would be better to check at regular intervals. Examples: browser location, scroll position, etc.
