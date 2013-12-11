@@ -1,0 +1,30 @@
+{
+  "author": "Mark Azevedo <mark@mark-azevedo.com>",
+  "contributors": [],
+  "name": "changes",
+  "description": "The `Changes` module allows you to inspect an object on an interval, firing a callback when the value is different than its last recorded state. Useful for observing objects that don't emit events or would be better to check at regular intervals. Examples: browser location, scroll position, etc.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/markazevedo/changes",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markazevedo/changes.git"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "node_modules/.bin/jasmine-node --coffee --matchall --test-dir tests"
+  },
+  "dependencies": {
+  },
+  "keywords":[
+    "utility"
+  ],
+  "devDependencies": {
+    "jasmine-node": "*",
+    "coffee-script": "*"
+  },
+  "license": "MIT",
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
